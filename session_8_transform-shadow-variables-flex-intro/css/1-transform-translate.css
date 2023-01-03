@@ -47,12 +47,13 @@
 .translate {
   background-color: gold;
   font-weight: 800;
+  display: inline-block;
   font-size: 1.1rem;
   width: 100px;
   height: 50px;
-  margin: 10px;
-  transition: background-color 1s, transform 1s;
-  /* transition: all 1s; */
+  margin: 20px;
+  transition: background-color 1s, transform .5s;
+  /* transition: all 1s; */  
 }
 
 .x:hover {
@@ -62,10 +63,12 @@
 .y:active {
   transform: translateY(-50px);
   background-color: tomato;
+  /* visibility: hidden; */
+
 }
 
 .xy:active {
-  transform: translate(50px, 50px);
+  transform:rotate(-45deg) translateX(100px) scale(150%);
   background-color: fuchsia;
 }
 .btn-div {
@@ -88,5 +91,8 @@
   color: white;
 }
 .btn:active {
-  transform: scale(95%);
+  transition: all .5s ease-out .5s;
+  transform: scale(95%) translateY(-150px);
+  background-color: aqua;
+  color: violet;
 }
