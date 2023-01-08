@@ -23,3 +23,6 @@
 .clear {
   clear: both;
 }
+.menu:active {
+  position: relative;
+}
