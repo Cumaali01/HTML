@@ -28,13 +28,13 @@ ul li {
   display: inline-block;
 }
 
-header ul li a {
+ul li a {
   color: black;
   padding: 0.5rem;
   opacity: 0.8;
 }
 
-header ul li a:hover {
+ul li a:hover {
   text-decoration: underline;
   opacity: 2;
 }
@@ -120,4 +120,24 @@ header ul li a:hover {
   text-decoration: underline;
 }
 
+.footer {
+  position: fixed;
+  bottom: 0;
+  background-color: #dadce0;
+  width: 100%;
+}
+
+.footer__country {
+  font-size: 14px;
+  padding-left: 65px;
+}
+
+.footer__bottom--left {
+  float: right;
+}
+
+.footer__bottom {
+  padding: 20px;
+  border-top: 2px solid #f2f2f2;
+}
 /*! FOOTER */
