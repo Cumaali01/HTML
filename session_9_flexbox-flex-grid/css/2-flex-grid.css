@@ -75,3 +75,37 @@
   background-color: turquoise;
   padding: 2rem;
 }
+
+.footer {
+  background-color: rebeccapurple;
+  padding: 2rem;
+}
+section {
+  /* padding: 2rem; */
+}
+
+.bolum1 {
+  background-color: yellow;
+  padding: 2rem;
+}
+.bolum2 {
+  background-color: violet;
+  padding: 2rem;
+}
+.bolum3 {
+  background-color: teal;
+  padding: 2rem;
+}
+
+.bolum4 {
+  background-color: springgreen;
+  padding: 3rem;
+}
+.bolum5 {
+  background-color: peru;
+  padding: 3rem;
+}
+.bolum6 {
+  background-color: crimson;
+  padding: 3rem;
+}
