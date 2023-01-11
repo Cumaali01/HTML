@@ -37,17 +37,19 @@
   display: flex;
   flex-wrap: wrap;
   gap: 20px 10px;
-  /* padding: 0.5rem; */
+  padding: 0.5rem;
 
-  justify-content: center;
+  justify-content: center; /*Rows alignment*/
 
   /*! Dikey Hizalama => align-items
   /**  flex-start, flex-end,center, stretch,baseline */
-  align-items: flex-end;
+  /* align-items: center;  */
+  /*Column alignment*/
 
   /*! Çok satırlı verilerin dikeyde hizalanmasi için kullanılır.
   //*! flex-wrap: wrap modu */
-  align-content: flex-end;
+  align-content: center;
+  /*This affect all the together*/
   overflow: auto;
 }
 
@@ -85,7 +87,7 @@ div.grow2 {
 
 /*? grow3 classindakiler diğerlerine göre 3 kat daha fazla büyüyebilir.*/
 div.grow3 {
-  flex-grow: 3;
+  flex-grow: 4;
 }
 
 /*? nogrow classindakiler diğerlerine göre hiç büyümezler*/
@@ -118,5 +120,5 @@ div.div3 {
   width: 30%;
 }
 div.div4 {
-  width: 40%;
+  /* width: 40%; */
 }
