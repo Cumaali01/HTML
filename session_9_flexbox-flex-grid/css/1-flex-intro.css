@@ -87,7 +87,7 @@ div.grow2 {
 
 /*? grow3 classindakiler diğerlerine göre 3 kat daha fazla büyüyebilir.*/
 div.grow3 {
-  flex-grow: 4;
+  flex-grow: 3;
 }
 
 /*? nogrow classindakiler diğerlerine göre hiç büyümezler*/
@@ -112,13 +112,17 @@ div.nogrow {
 }
 div.div1 {
   width: 10%;
+  order: 3;
 }
 div.div2 {
   width: 20%;
+  order: 2;
 }
 div.div3 {
   width: 30%;
+  order: 1;
 }
 div.div4 {
   /* width: 40%; */
+  order: 0; /* Order:0 is default we do not have to  write it*/
 }
