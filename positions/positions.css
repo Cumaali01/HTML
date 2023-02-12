@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: aqua;
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+}
+.box1{
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: bisque;
+    position: relative;
+    left: 50px;
+}
+.box3{
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+    position: absolute; /* we can locate the element out of the container*/
+    top: 0;
+    right:0;
+    border-top-right-radius:25px;
+}
+.box4{
+    background-color: lightcoral;
+    width: 300px;
+    height: 100px;
+    position: fixed; /* we stabilize this element on the screen*/
+    opacity: .7;
+}
