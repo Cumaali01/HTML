@@ -4,39 +4,21 @@
   padding: 0;
 }
 
-body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: pink;
-  font-size: 1.2rem;
-  color: white;
-}
-
-header {
-  background-color: #30a7c3;
+.articles {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
 }
-header img {
-  width: 100px;
-  border: 2px solid brown;
-  border-radius: 10px;
-  margin: 10px;
-  padding: 5px;
+.articles .article1, .articles .article2 {
+  background-color: grey;
+  width: 50%;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 10rem;
 }
-header ul {
-  list-style-type: none;
-}
-header a {
-  text-decoration: none;
-  color: white;
-}
-header li {
-  display: inline-block;
-  padding: 0.5rem;
-}
-header li:hover {
-  text-decoration: underline;
+.articles .article2 {
+  background-color: hotpink;
+  border-color: green;
 }
 
 .banner {
@@ -53,7 +35,7 @@ header li:hover {
   border-radius: 5px;
   background-color: #30a7c3;
   margin-top: 1rem;
-  margin-right: 0.75rem;
+  margin-right: 0.5rem;
 }
 .banner aside button:hover {
   background-color: pink;
@@ -61,7 +43,7 @@ header li:hover {
 }
 .banner img {
   width: 30%;
-  min-height: 200px;
+  min-width: 250px;
   max-width: 400px;
 }
 
@@ -71,90 +53,106 @@ header li:hover {
   padding: 0.8rem;
 }
 .cards .card1 {
-  background-color: brown;
+  background-color: green;
   color: white;
   width: 25%;
-  height: 12rem;
+  height: 15rem;
   border: 2px solid brown;
   border-radius: 5px;
 }
 .cards .card2 {
-  background-color: yellow;
-  color: red;
+  background-color: brown;
+  color: white;
   width: 25%;
-  height: 12rem;
+  height: 15rem;
   border: 2px solid brown;
   border-radius: 5px;
 }
 .cards .card3 {
-  background-color: green;
-  color: white;
+  background-color: yellow;
+  color: black;
   width: 25%;
-  height: 12rem;
+  height: 15rem;
   border: 2px solid brown;
   border-radius: 5px;
 }
 .cards .card4 {
-  background-color: blue;
-  color: wheat;
+  background-color: rgb(40, 33, 56);
+  color: white;
   width: 25%;
-  height: 12rem;
+  height: 15rem;
   border: 2px solid brown;
   border-radius: 5px;
 }
 
-.articles {
-  display: flex;
-  gap: 1rem;
-  padding: 1rem;
-}
-.articles .article1, .articles .article2 {
-  background-color: grey;
-  width: 50%;
-  border: 1px solid black;
-  border-radius: 5px;
-  height: 10rem;
-}
-.articles .article2 {
-  background-color: hotpink;
-}
-
 footer p {
-  background-color: lightcoral;
+  background-color: lightgreen;
 }
 footer .social-icons {
   display: flex;
   height: 10rem;
-  padding: 2px;
-  gap: 2px;
 }
 footer .social-icons .social1 {
   width: 20%;
-  background-color: #3d32cc;
+  background-color: rgba(43, 143, 229, 0.89);
   font-size: 1rem;
   color: #990000;
 }
 footer .social-icons .social2 {
   width: 20%;
-  background-color: #574ed3;
+  background-color: rgba(65, 155, 232, 0.89);
   font-size: 2rem;
   color: #55004e;
 }
 footer .social-icons .social3 {
   width: 20%;
-  background-color: #726bdb;
+  background-color: rgba(88, 167, 234, 0.89);
   font-size: 3rem;
   color: #0fa8a1;
 }
 footer .social-icons .social4 {
   width: 20%;
-  background-color: #8d87e2;
+  background-color: rgba(111, 179, 237, 0.89);
   font-size: 4rem;
   color: #121456;
 }
 footer .social-icons .social5 {
   width: 20%;
-  background-color: #a9a4e9;
+  background-color: rgba(133, 191, 240, 0.89);
   font-size: 5rem;
   color: #64c217;
+}
+
+header {
+  background-color: #30a7c3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+header img {
+  width: 80px;
+  border: 2px solid brown;
+  border-radius: 10px;
+}
+header ul {
+  list-style-type: none;
+}
+header ul li {
+  display: inline-block;
+  padding: 0.5rem;
+}
+header ul li:hover {
+  text-decoration: underline;
+}
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: pink;
+  font-size: 1.2rem;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
